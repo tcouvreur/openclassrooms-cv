@@ -4,7 +4,14 @@
     --grey: #4c4c4c;
 }
 
+html {
+    min-height: 100%;
+    position: relative;
+}
+
 body {
+    width: 100%;
+    height: 100%;
     margin: 0;
     font-family: "Roboto";
     color: var(--grey);
@@ -48,7 +55,11 @@ header {
 
 h4 {
     border-bottom: solid 1px var(--yellow);
-    padding: 15px;
+    padding: 15px 15px 15px 0px;
+}
+
+h4 i {
+    padding-right: 10px;
 }
 
 
@@ -62,9 +73,8 @@ h4 {
 }
 .form-block aside
  {
-    margin-left: 2em;
+    margin: 0 2em 1em 2em;
     background-color: initial;
-    margin-bottom: 1rem;
 }
 
 .par-formation h5 {
@@ -182,9 +192,7 @@ ul {
         max-width:350px;
         width: 30%;
     }
-    img {
-        margin-top: 1rem;
-    }
+
     main li {
         display: flex;
     }
