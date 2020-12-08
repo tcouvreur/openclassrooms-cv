@@ -157,6 +157,7 @@ main aside div:last-of-type p {
 
 li {
     display: block;
+    padding-bottom: 10px;
 }
 
 li.par-reco {
